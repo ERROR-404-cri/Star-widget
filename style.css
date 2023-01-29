@@ -1,0 +1,24 @@
+.starsContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+
+.star {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.star:hover {
+  background-color: tomato;
+}
+
+.star:hover ~ .star {
+  background-color: tomato;
+}
+
+.active {
+  background-color: tomato;
+}
